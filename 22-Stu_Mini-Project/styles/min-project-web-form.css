@@ -1,0 +1,169 @@
+/* brand color palette - contact form & main page */
+
+/* 
+header, footer : #455a64 
+header accent line : #ff7043
+footer accent line : #78909c
+main font color : #263238
+secondary font : #fffff
+main navigation link hover : #ffab91
+contact form : #cfd8dc 
+contact form button : #ff7043
+contact form top accent line : #78909c
+*/
+
+/* fonts - fira sans */
+
+.fira-sans-light,
+.contact-form-button,
+.contact-form form > input {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular,
+figcaption,
+h1,
+h2,
+.contact-form #from,
+.contact-form #reply {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #263238;
+}
+
+/* global body */
+
+*,
+body, 
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* max-height: 100%; */
+}
+
+/* navigation bar */
+
+.navigation-top {
+  background-color: #455a64;
+  border-bottom: solid 5px #ff7043;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nav - navigation items */
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-items {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
+
+.navigation-items > a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.4s ease-in-out;
+}
+
+.navigation-items > a:hover {
+  color: #ffab91;
+}
+
+.fira-sans-light > a {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* main content */
+
+.main-content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.main-content img {
+  width: 90%;
+}
+
+.main-content h1 {
+  font-size: 2em;
+  padding: 30px;
+}
+
+/* contact form */
+
+.contact-form {
+  height: 250px;
+  background-color: #cfd8dc;
+  border-top: solid 2px #b0bec5;
+}
+
+.contact-form h2 {
+  padding: 35px;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #b0bec5;
+  border-radius: 30px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-form #from,
+.contact-form #reply,
+.contact-form .button {
+  padding: 0.5vh;
+}
+
+.contact-form-button {
+  background-color: #ff7043;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px 40px;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+}
+
+/* footer */
+
+.footer-bar {
+  background-color: #455a64;
+  border-bottom: solid 5px #78909c;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-items {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  color: #ffff;
+}
