@@ -3,14 +3,13 @@ section {
   height: 600px;
   text-align: center;
   border: 15px solid black;
-  margin: 0 auto;
 }
 
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
-  margin: 25px 25px 25px 25px;
-  padding: 15px;
-  border: solid #17007D 7px;
+  margin: 20px;
+  padding: 20px;
+  border: solid #17007D 9px;
 }
